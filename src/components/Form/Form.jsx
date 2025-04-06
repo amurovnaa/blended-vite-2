@@ -10,7 +10,7 @@ const Form = ({ onSubmit }) => {
 
     if (value) {
       onSubmit(value);
-      form.reset(); // очищення форми
+      form.reset();
     }
   };
 
